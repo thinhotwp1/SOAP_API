@@ -15,6 +15,7 @@ public class Product {
     private Integer code;
     private String name;
     private Double price;
-    @XmlTransient // Hide this in xml
     private Date dateCreate;
+    @XmlTransient // Hide this in xml
+    private String maker;
 }
