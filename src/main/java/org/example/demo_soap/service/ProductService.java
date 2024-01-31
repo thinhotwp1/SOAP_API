@@ -9,6 +9,7 @@ import java.util.Date;
 import java.util.List;
 @WebService(name = "ProductWS")
 public class ProductService {
+
     @WebMethod(operationName = "sellingPrice")
     public Double sellingPrice(@WebParam(name = "Price") Double price){
         return price*1.5;
